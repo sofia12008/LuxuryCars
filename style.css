@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background: none;
+  border: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.main-header__container {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.main-header__list {
+  display: flex;
+  gap: 115px;
+}
+.main-header__picture {
+  margin-right: 244px;
+}
+.main-header__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #030305;
+  text-decoration: none;
+}
+
+.first-screen {
+  background: url(img/background.png) no-repeat center center;
+  padding-top: 105px;
+  padding-bottom: 154px;
+  margin-bottom: 100px;
+}
+
+.first-screen__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 110%;
+  /* or 88px */
+
+  color: #030305;
+  margin-bottom: 0;
+  margin-bottom: 40px;
+}
+
+.first-screen__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+
+  color: #030305;
+  max-width: 502px;
+  margin-bottom: 0;
+  margin-bottom: 40px;
+}
+
+.black-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background: #030305;
+  text-decoration: none;
+  padding: 20px 0;
+  display: block;
+  width: 100%;
+}
+
+.first-screen__link {
+  max-width: 334px;
+}
+
+.products__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+
+  color: #030305;
+}
+.product__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #030305;
+}
+
+.description__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #030305;
+}
+.description__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #030305;
+}
+
+.ca__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+
+  color: #030305;
+  margin-bottom: 20px;
+}
+
+.ca__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+
+  color: #5d5d5f;
+  margin-bottom: 60px;
+}
+.ca__input {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+
+  color: #5d5d5f;
+}
+.submit {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.main-footer__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #030305;
+}
+
+.ca__button {
+  max-width: 344px;
+}
+
+.products__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px 24px;
+}
+.descriptions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.description {
+  text-align: center;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.ca__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 344px;
+  gap: 15px;
+}
+.main-footer {
+  border-top: 1px solid #e5e5e5;
+}
+.main-footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.ca__img {
+  position: absolute;
+  top: 90px;
+  left: 401px;
+}
+.ca {
+  position: relative;
+  padding-bottom: 122px;
+}
+.ca__input {
+  padding: 22px 18px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  scroll-behavior: smooth;
+}
